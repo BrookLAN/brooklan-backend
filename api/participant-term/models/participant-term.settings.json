@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "participant_terms",
+  "info": {
+    "name": "ParticipantTerm"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Term": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

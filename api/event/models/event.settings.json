@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "Event",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "participant_term": {
+      "model": "participant-term"
+    },
+    "City": {
+      "type": "string",
+      "required": true
+    },
+    "Game": {
+      "type": "string",
+      "required": true
+    },
+    "Participants": {
+      "type": "string",
+      "required": true
+    },
+    "AvailablePlayers": {
+      "type": "string",
+      "private": false
+    },
+    "RegisterLink": {
+      "type": "string",
+      "required": true
+    },
+    "RegisterCompany": {
+      "type": "string",
+      "required": true
+    },
+    "ImageLink": {
+      "type": "string",
+      "required": true
+    },
+    "Address": {
+      "type": "string"
+    }
+  }
+}
